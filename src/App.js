@@ -11,7 +11,8 @@ function App() {
       content: (
         <div className="section-content">
           <div className="profile-header">
-            <img src="/my_pic.jpg" alt="Profile" className="profile-image" />
+            <img src={`${process.env.PUBLIC_URL}/my_pic.jpg`} alt="Profile" className="profile-image" />
+            {/* <img src="my_pic.jpg" alt="Profile" className="profile-image" /> */}
             <div className="profile-info">
               <h1>SRI SASHANK POTLURI</h1>
               <p className="location">Fairfax, VA</p>
